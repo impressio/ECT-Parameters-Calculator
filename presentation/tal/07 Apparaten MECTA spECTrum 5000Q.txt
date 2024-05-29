@@ -1,0 +1,17 @@
+Vi använder MECTA Spectrum 5000 Q i 200 joule-utförande.
+[short pause]
+Den är en konstantströmsgenerator som ger bifasiska kortpulser, med en strömstyrka på 500 till 900 milliampere enligt ordination.
+
+[pause]
+
+Laddningen ställs in med de fyra rattarna och visas på skärmen; högsta laddning är 1152 millicoulomb, på en 100 joule-reservapparat 576 millicoulomb.
+
+[pause]
+
+Före stimuleringen mäts den statiska impedansen, och apparaten spärrar stimuleringen under 100 eller över 5000 ohm.
+[short pause]
+Stimuleringsknappen hålls intryckt tills tonen tystnar.
+
+[pause]
+
+Två EEG-kanaler registrerar anfallet, och skrivaren skriver ut pappersremsan efter behandlingen.

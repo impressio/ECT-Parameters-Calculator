@@ -1,0 +1,12 @@
+{
+  "name": "ect-parameters-calculator",
+  "private": true,
+  "scripts": {
+    "build:index": "node tools/build-index.mjs",
+    "build:kompendium": "node tools/build-renderer.mjs",
+    "test:kompendium": "node tools/test-renderer.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

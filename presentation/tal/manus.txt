@@ -1,0 +1,533 @@
+Elektrokonvulsiv terapi (ECT)...
+
+[long pause]
+
+Välkomna.
+
+[pause]
+
+Under 30 minuter går vi igenom vad som händer elektriskt när vi ger ECT, hur vi doserar, hur behandlingen går till vid bordet och vad vi ska vara uppmärksamma på.
+[short pause]
+Därefter frågestund...
+
+[long pause]
+
+Vi börjar med en kort historik, indikationer och kontraindikationer samt verkningsmekanismer.
+
+[pause]
+
+Sedan fyra delar.
+[short pause]
+Del ett: stimulus och impedans, med apparaten, rattarna, strömmens väg, elektrodplaceringen och hudförberedelsen.
+[short pause]
+Del två: doseringen.
+[short pause]
+Del tre: genomförandet vid bordet.
+[short pause]
+Del fyra: säkerhet och biverkningar.
+
+[pause]
+
+Frågor tar vi gärna i slutet...
+
+[long pause]
+
+Krampbehandling med läkemedel prövades 1934 och elektriskt utlöst anfall 1938.
+[short pause]
+Muskelrelaxation infördes 1952 och unilateral ECT 1958.
+[short pause]
+Sedan 1980-talet doseras ECT efter kramptröskeln med kortpuls...
+
+[pause]
+
+Den vanligaste indikationen är svår depression, särskilt med psykotiska eller melankoliska symtom.
+[short pause]
+ECT kan vara livräddande vid katatoni och malignt neuroleptikasyndrom, och när patienten är akut suicidal eller slutar äta och dricka.
+[short pause]
+Andra indikationer är svår eller behandlingsresistent mani, behandlingsresistent depression och schizofreni med otillräcklig effekt av läkemedel, till exempel tillsammans med klozapin.
+
+[pause]
+
+Det finns inga absoluta kontraindikationer: vid vital indikation kan ECT ges även vid svår somatisk sjukdom.
+
+[pause]
+
+Relativa kontraindikationer är tillstånd där blodtrycks- och pulsstegringen eller det ökade intrakraniella trycket under anfallet är farligt: nyligen genomgången hjärtinfarkt, instabil angina, dekompenserad hjärtsvikt, svår aortastenos, aneurysm eller arteriovenös missbildning, förhöjt intrakraniellt tryck och nyligen genomgången stroke eller hjärnblödning.
+[short pause]
+Hit hör också feokromocytom och näthinneavlossning.
+[short pause]
+Då krävs riskbedömning och samråd med anestesi, kardiologi eller neurologi...
+
+[pause]
+
+Vilka mekanismer som betyder mest är inte helt känt.
+
+[pause]
+
+Det generaliserade anfallet är nödvändigt; subkonvulsiv stimulering ger svagare effekt.
+[short pause]
+Anfallet engagerar specifika nätverk, och högersidig unilateral stimulering aktiverar mer asymmetriskt, medan hjärnstammen alltid aktiveras symmetriskt.
+
+[pause]
+
+ECT påverkar monoaminer och balansen mellan gamma-aminosmörsyra och glutamat och ökar nätverkens hämmande kapacitet.
+
+[pause]
+
+Hypotalamus-hypofys-binjurebarkaxeln, som styr stresshormonerna, fungerar inte normalt vid svår depression; vid melankolisk depression normaliserar ECT stresshormonbalansen i takt med förbättringen.
+
+[pause]
+
+I djurstudier ökar cellnybildningen i hippocampus, men betydelsen hos människa är oklar.
+
+[pause]
+
+Förenklat: upprepade anfall, och den mekanism som avslutar dem, normaliserar successivt sjukdomens funktionella obalans...
+
+[long pause]
+
+...
+
+[long pause]
+
+Del ett: stimulus och impedans, alltså vad apparaten levererar och vad som når hjärnan...
+
+[long pause]
+
+Vi använder MECTA Spectrum 5000 Q i 200 joule-utförande.
+[short pause]
+Den är en konstantströmsgenerator som ger bifasiska kortpulser, med en strömstyrka på 500 till 900 milliampere enligt ordination.
+
+[pause]
+
+Laddningen ställs in med de fyra rattarna och visas på skärmen; högsta laddning är 1152 millicoulomb, på en 100 joule-reservapparat 576 millicoulomb.
+
+[pause]
+
+Före stimuleringen mäts den statiska impedansen, och apparaten spärrar stimuleringen under 100 eller över 5000 ohm.
+[short pause]
+Stimuleringsknappen hålls intryckt tills tonen tystnar.
+
+[pause]
+
+Två EEG-kanaler registrerar anfallet, och skrivaren skriver ut pappersremsan efter behandlingen...
+
+[pause]
+
+MECTA Spectrum 5000 Q har fyra rattar.
+[short pause]
+Pulsbredden anger hur länge varje puls varar, frekvensen hur många pulspar per sekund, durationen hur länge pulståget pågår och strömstyrkan pulsernas amplitud, 500 till 900 milliampere enligt ordination.
+
+[pause]
+
+Pulserna är bifasiska: varje period har en positiv och en negativ puls, därav faktorn två.
+
+[pause]
+
+Laddningen i millicoulomb är det mått vi ordinerar och dokumenterar.
+[short pause]
+Exempel: 1,0 millisekunder, 60 hertz, 2,0 sekunder och 800 milliampere ger 192 millicoulomb.
+[short pause]
+Kontrollera alltid att apparatens skärm visar den ordinerade laddningen...
+
+[pause]
+
+Skallbenets impedans är ungefär hundra gånger högre än hudens.
+[short pause]
+Därför leds omkring 99 procent av strömmen genom hud och skalp, där nästan all energi avges som värme.
+[short pause]
+Hjärnan värms mindre än en tusendels grad.
+
+[pause]
+
+En brännskada kan bara uppstå där elektroden möter huden, och bara om kontakten är dålig, alltså om impedansen i kontaktytan är hög.
+[short pause]
+En brännskada visar därför att kontakten var dålig just där.
+
+[pause]
+
+Hur mycket ström som når hjärnan varierar dessutom mellan patienter med skallbenets tjocklek och huvudets anatomi...
+
+[pause]
+
+Statisk impedans mäts före stimuleringen med en svag mätström.
+[short pause]
+Apparaten spärrar stimuleringen under 100 eller över 5000 ohm.
+[short pause]
+Det är ett spärrfönster; hos oss är målvärdet omkring 1000 ohm, utifrån klinisk erfarenhet.
+
+[pause]
+
+OVER betyder dålig kontakt: hår, fett, för torr kompress eller för löst tryck.
+[short pause]
+UNDER betyder en salt- eller gelbrygga mellan elektroderna, så att strömmen går i huden i stället för genom skallen.
+
+[pause]
+
+Dynamisk impedans mäts under pulståget och är lägre, typiskt 150 till 350 ohm.
+[short pause]
+Ett värde inom fönstret utesluter inte en brygga...
+
+[pause]
+
+Elektrodplaceringen avgör var strömmen går.
+
+[pause]
+
+Hos oss är högersidig unilateral placering enligt d’Elia förstahandsval.
+[short pause]
+Den temporala elektroden placeras två och en halv till tre centimeter ovanför mitten av linjen mellan yttre ögonvrån och örats tragus.
+[short pause]
+Den andra elektroden placeras två och en halv till tre centimeter till höger om hjässans mittpunkt, och avståndet mellan elektroderna ska vara minst tio till tolv centimeter.
+
+[pause]
+
+Vid bitemporal placering sitter en elektrod på samma punkt på båda sidor.
+
+[pause]
+
+EEG registreras med tre elektroder: två i pannan, två till tre centimeter ovanför ögonbrynen, och en referenselektrod under nyckelbenet...
+
+[pause]
+
+Huden ska vara ren och håret fritt från hårprodukter; det förbereds på vårdavdelningen.
+
+[pause]
+
+Vi använder inte sprit.
+[short pause]
+Sprit kan ta bort hudfett, men den måste ha torkat helt före stimuleringen, eftersom sprit nära syrgas och elektrisk ström innebär brandrisk.
+[short pause]
+Alkohol ensam kan dessutom höja impedansen.
+
+[pause]
+
+Hos oss används i första hand små, höggradigt rena kompresser som ligger i en behållare med saltlösning, en flaska natriumklorid, 250 milliliter, med en halv matsked salt.
+[short pause]
+Kompressen ska vara fuktig men får inte rinna.
+[short pause]
+Lägg den mellan varje handelektrod och huden strax före stimuleringen.
+
+[pause]
+
+Gel är alternativet.
+[short pause]
+Låt aldrig vätska eller gel rinna mellan elektrodställena...
+
+[pause]
+
+Pulsbredden är en avvägning mellan effekt och minnesbiverkningar.
+
+[pause]
+
+Kortpuls, 0,5 till 1,0 millisekunder, är standard hos oss och den vanligaste inställningen i Sverige.
+[short pause]
+Den har bäst underbyggd effekt, och i det svenska kvalitetsregistret var en pulsbredd på minst 0,5 millisekunder förenad med högre remission.
+
+[pause]
+
+Ultrakort puls, 0,25 till 0,3 millisekunder, ger mindre minnesbiverkningar vid högersidig unilateral behandling: färre subjektiva minnesbesvär i registret och mindre retrograd amnesi i studier.
+[short pause]
+Priset är något sämre effekt och i genomsnitt ungefär en behandling till.
+[short pause]
+Ultrakort puls används inte hos oss.
+
+[pause]
+
+Samma laddning i millicoulomb är inte likvärdig vid olika pulsbredd, så ett byte av pulsbredd kräver en ny bedömning av dosen i förhållande till tröskeln...
+
+[pause]
+
+Svenska registerdata från Brus och medarbetare 2017, 1671 patienter åren 2011 till 2014, visar att 0,5 millisekunder användes hos drygt två tredjedelar.
+[short pause]
+Ultrakort puls, 0,25 till 0,47 millisekunder, användes hos knappt var femte, men den används inte hos oss.
+
+[pause]
+
+Pulsbredden väljs inte efter ålder eller kön utan efter elektrodplacering, klinisk bild och biverkningar...
+
+[long pause]
+
+...
+
+[long pause]
+
+Del två: hur vi bestämmer dosen...
+
+[long pause]
+
+Kramptröskeln är den lägsta laddning som utlöser ett anfall.
+[short pause]
+Den stiger med åldern, är ofta högre hos män, och påverkas av läkemedel och anestesi.
+[short pause]
+Den är högre vid bitemporal placering än vid högersidig unilateral placering.
+
+[pause]
+
+Formler och dostabeller med ålder och kön förklarar högst omkring 40 procent av variationen, så empirisk titrering är det mest precisa.
+
+[pause]
+
+Behandlingsdosen är en multipel av tröskeln: vid högersidig unilateral behandling ofta 4 till 6 gånger, vid bitemporal behandling 1,5 till 2,5 gånger.
+[short pause]
+Unilateral behandling nära tröskeln ger sämre effekt.
+
+[pause]
+
+Två saker är lätta att blanda ihop: tröskeln och behandlingsdosen.
+[short pause]
+Vid bitemporal placering är tröskeln högre, men det räcker med 1,5 till 2,5 gånger tröskeln.
+[short pause]
+Vid högersidig unilateral placering är tröskeln lägre, men det krävs 4 till 6 gånger tröskeln.
+
+[pause]
+
+Räkneexempel: högersidig unilateral placering med tröskeln 50 millicoulomb och fem gånger tröskeln ger 250 millicoulomb, bitemporal med tröskeln 75 millicoulomb och två gånger tröskeln ger 150 millicoulomb.
+[short pause]
+Högersidig unilateral placering får alltså ofta mer laddning, trots lägre tröskel...
+
+[pause]
+
+Strömstyrkan är inte fast.
+[short pause]
+Den ställs in enligt ordination inom apparatens intervall, 500 till 900 milliampere i Full Spectrum.
+[short pause]
+Dosen anpassas i första hand med laddningen, alltså pulsbredd, frekvens och duration.
+
+[pause]
+
+Ingen riktlinje anger att strömstyrkan ska väljas efter ålder, kön eller kroppsvikt.
+[short pause]
+Hur mycket ström som når hjärnan beror på skallbenets tjocklek, huvudets storlek och hjärnvolymen, inte på vikten.
+
+[pause]
+
+I en randomiserad studie med högersidig unilateral behandling gav 700 och 800 milliampere bättre antidepressiv effekt än 600 milliampere, medan verbalt flöde försämrades vid 800 milliampere.
+
+[pause]
+
+I det svenska kvalitetsregistret 2011 till 2014 fick drygt hälften 528 till 800 milliampere och knappt en tredjedel 900 till 930 milliampere.
+
+[pause]
+
+Individuellt anpassad strömstyrka studeras men är ännu inte klinisk rutin...
+
+[long pause]
+
+...
+
+[long pause]
+
+Del tre: genomförandet vid bordet...
+
+[long pause]
+
+Före behandlingen: identitet, fasta sedan midnatt, morgonmediciner enligt ordination och blåstömning.
+[short pause]
+Blodtrycket tas på avdelningen samma morgon.
+[short pause]
+Ordinarie antihypertensiva och protonpumpshämmare ges på avdelningen.
+
+[pause]
+
+Sedan uppkoppling, hudförberedelse och preoxygenering.
+[short pause]
+Efter induktionen ges suxameton för muskelrelaxation.
+
+[pause]
+
+Bitblock och anestesins uttryckliga klartecken: varsågod att stimulera.
+[short pause]
+Först därefter appliceras handelektroderna och den statiska impedansen kontrolleras.
+[short pause]
+Stimuleringsknappen hålls intryckt tills tonen tystnar.
+
+[pause]
+
+Därefter anfallsövervakning.
+[short pause]
+Omedelbart efter att EEG-aktiviteten har upphört mäts blodtrycket igen, eftersom anfallet ger en kraftig blodtrycksstegring.
+[short pause]
+Sedan uppvak...
+
+[pause]
+
+Det motoriska anfallet följs genom att observera patienten och ta tid.
+[short pause]
+Under själva pulståget drar käke och nacke ihop sig av strömmen; det hör inte till anfallet.
+
+[pause]
+
+Den toniska fasen är en ihållande kontraktion som börjar direkt eller inom några sekunder, vid tröskelnära stimulering upp till tio sekunder senare.
+
+[pause]
+
+Därefter kommer den kloniska fasen med rytmiska ryckningar som blir allt glesare.
+[short pause]
+Under muskelrelaxation syns de ofta bara i tår, fingrar eller ansikte.
+
+[pause]
+
+När ryckningarna har upphört helt läser du av sekunderna på apparaten: det är den motoriska durationen.
+
+[pause]
+
+Den är vanligen över 20 till 30 sekunder, och EEG-anfallet varar vanligen 10 till 20 sekunder längre.
+[short pause]
+Sekundgränserna är inga absoluta mått på effekt...
+
+[pause]
+
+Det här är en riktig EEG-registrering från en ECT-behandling, med två kanaler och tidsangivelse i sekunder.
+
+[pause]
+
+Efter stimuleringen kommer rekrytering med snabb aktivitet och låg amplitud, B, som övergår i polyspikar där amplituden ökar, C.
+[short pause]
+Aktiviteten blir sedan mer regelbunden med theta- och deltavågor, D, och kring 25 sekunder ses tydliga spik-vågkomplex på omkring två till tre hertz, E.
+[short pause]
+Mönstret avtar, F, och efter omkring 50 sekunder följer postiktal suppression med låg amplitud, G.
+
+[pause]
+
+Utslaget vid H är en rörelseartefakt när syrgasmasken läggs tillbaka.
+
+[pause]
+
+Tecken på ett anfall av god kvalitet är hög amplitud, symmetri mellan kanalerna, ett tydligt slut och djup suppression, men inget enskilt tecken avgör effekten...
+
+[pause]
+
+Anfallets längd bedöms på två tider: motorisk duration och EEG-tid.
+[short pause]
+Båda räknas från stimuleringen och läses av i sekunder på apparaten och på utskriften.
+
+[pause]
+
+Vi använder inte manschettmetoden rutinmässigt.
+
+[pause]
+
+Den motoriska durationen slutar när ryckningarna har upphört, och EEG-tiden när EEG planar ut.
+[short pause]
+Verifiera anfallsslutet på EEG även när motoriken har upphört.
+
+[pause]
+
+Utskriften kommer direkt efter stimuleringen, med testresultat, EEG-spår och behandlingsresultat...
+
+[pause]
+
+Missat anfall: avvakta minst omkring 20 sekunder för att utesluta fördröjd start, kontrollera kontakt, salt- eller gelbrygga och levererad laddning.
+[short pause]
+Ny stimulering är ett nytt behandlingsbeslut.
+
+[pause]
+
+Kort anfall: ett kort anfall är inte automatiskt ineffektivt; bedöm EEG och restimulera inte bara för att en sekundgräns underskrids.
+[short pause]
+Före ny stimulering väntar man 40 till 60 sekunder med ventilation, enligt den regionala riktlinjen och Svenska Psykiatriska Föreningen; American Psychiatric Association anger minst 45 sekunder.
+
+[pause]
+
+Förlängt anfall: enligt intensivvårdsavdelningens rutin bryts kramper som varar längre än en minut med diazepam intravenöst; American Psychiatric Association anger omkring 120 sekunder.
+[short pause]
+Verifiera anfallsslutet på EEG även när motoriken har upphört...
+
+[long pause]
+
+...
+
+[long pause]
+
+Del fyra: läkemedel och biverkningar...
+
+[long pause]
+
+Bensodiazepiner och antiepileptika höjer tröskeln och kan ge korta eller missade anfall; dosreduktion eller paus ordineras individuellt.
+
+[pause]
+
+Litium kan öka risken för delirium och förlängd neuromuskulär blockad, och sällsynt serotonergt syndrom.
+
+[pause]
+
+Teofyllin kan ge förlängda anfall.
+
+[pause]
+
+Kolinesterashämmare kan förlänga suxametoneffekten och ge bradykardi.
+
+[pause]
+
+Serotoninåterupptagshämmare och serotonin- och noradrenalinåterupptagshämmare kan sällsynt ge serotonergt syndrom tillsammans med ECT.
+
+[pause]
+
+Ordinarie antihypertensiva och protonpumpshämmare ges på avdelningen före ECT...
+
+[pause]
+
+Minnet är det patienterna oroar sig mest för.
+[short pause]
+Högersidig unilateral placering i första hand och två behandlingar i veckan kan minska påverkan.
+
+[pause]
+
+Huvudvärk, muskelvärk och illamående är vanliga och behandlas eller förebyggs.
+
+[pause]
+
+Postiktal agitation hanteras lugnt och systematiskt: kontrollera luftväg, syresättning och cirkulation först.
+
+[pause]
+
+Serotonergt syndrom är sällsynt men viktigt att känna igen: klonus, hyperreflexi, tremor, svettning och feber hos en patient med serotonerga läkemedel...
+
+[long pause]
+
+Fem saker att ta med sig.
+
+[pause]
+
+Ett: kontrollera att skärmen visar ordinerad laddning.
+[short pause]
+Två: god kontakt med ren hud och en saltkompress som inte rinner, utan brygga.
+[short pause]
+Tre: dosen anpassas med laddningen, och strömstyrkan ställs in enligt ordination.
+[short pause]
+Fyra: bedöm anfallets längd på motorisk kramp och EEG-tid.
+[short pause]
+Fem: stäm av läkemedlen inför serien...
+
+[long pause]
+
+En kort animerad film på engelska, fyra minuter och 24 sekunder.
+
+[pause]
+
+Den sammanfattar ECT:s historia, hur behandlingen går till i dag och vanliga missuppfattningar, och är en bra inledning till frågestunden...
+
+[pause]
+
+Två filmer att se i efterhand, på engelska.
+
+[pause]
+
+Den första förklarar hur ECT fungerar, hur återhämtningen går till och vilka patienter behandlingen passar.
+
+[pause]
+
+Den andra är en kort film om ECT...
+
+[long pause]
+
+...
+
+[long pause]
+
+Tack.
+
+[pause]
+
+Nu öppnar vi för frågor.

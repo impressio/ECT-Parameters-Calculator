@@ -1,0 +1,29 @@
+Kramptröskeln är den lägsta laddning som utlöser ett anfall.
+[short pause]
+Den stiger med åldern, är ofta högre hos män, och påverkas av läkemedel och anestesi.
+[short pause]
+Den är högre vid bitemporal placering än vid högersidig unilateral placering.
+
+[pause]
+
+Formler och dostabeller med ålder och kön förklarar högst omkring 40 procent av variationen, så empirisk titrering är det mest precisa.
+
+[pause]
+
+Behandlingsdosen är en multipel av tröskeln: vid högersidig unilateral behandling ofta 4 till 6 gånger, vid bitemporal behandling 1,5 till 2,5 gånger.
+[short pause]
+Unilateral behandling nära tröskeln ger sämre effekt.
+
+[pause]
+
+Två saker är lätta att blanda ihop: tröskeln och behandlingsdosen.
+[short pause]
+Vid bitemporal placering är tröskeln högre, men det räcker med 1,5 till 2,5 gånger tröskeln.
+[short pause]
+Vid högersidig unilateral placering är tröskeln lägre, men det krävs 4 till 6 gånger tröskeln.
+
+[pause]
+
+Räkneexempel: högersidig unilateral placering med tröskeln 50 millicoulomb och fem gånger tröskeln ger 250 millicoulomb, bitemporal med tröskeln 75 millicoulomb och två gånger tröskeln ger 150 millicoulomb.
+[short pause]
+Högersidig unilateral placering får alltså ofta mer laddning, trots lägre tröskel.

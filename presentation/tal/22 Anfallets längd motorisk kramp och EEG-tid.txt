@@ -1,0 +1,17 @@
+Anfallets längd bedöms på två tider: motorisk duration och EEG-tid.
+[short pause]
+Båda räknas från stimuleringen och läses av i sekunder på apparaten och på utskriften.
+
+[pause]
+
+Vi använder inte manschettmetoden rutinmässigt.
+
+[pause]
+
+Den motoriska durationen slutar när ryckningarna har upphört, och EEG-tiden när EEG planar ut.
+[short pause]
+Verifiera anfallsslutet på EEG även när motoriken har upphört.
+
+[pause]
+
+Utskriften kommer direkt efter stimuleringen, med testresultat, EEG-spår och behandlingsresultat.
