@@ -1,0 +1,115 @@
+# Bokens hierarki: delar (mappar i valvet) och kapitel (filer) i ordning. Skapas med
+# python3 publish/build.py --manifest och kan redigeras (ordning, deltitlar, utelämnade kapitel). Ett kapitel kan
+# ha underkapitel (fil: och underkapitel:); de numreras under kapitlet (5.1.1, 5.1.2 ...). Varje del utom den sista
+# avslutas med kapitlet Referenser, som visas onumrerat.
+titel: ECT-kompendium
+undertitel: Kompendium för ECT-behandlare
+webbplats: https://ect.matty.se
+# Kompendiets innehållskapitel tas inte med: bokens innehållsförteckning (med sidnummer) ersätter det, och länkar
+# dit leder till innehållsförteckningen
+ersatta_kapitel:
+  02 Innehåll: innehall
+# Avsnitt som börjar på ny sida i boken (kapitel och rubrik), t.ex. för att två avsnitt ska hamna på samma sida
+sidbrytning_fore:
+- kapitel: 02 Indikationer och bedömning/04 Läkemedel och interaktioner.md
+  rubrik: Behandlingsplan
+- kapitel: 09 Uppföljning och underhållsbehandling/01 Behandlingsförlopp och serielängd.md
+  rubrik: Antal behandlingar
+# Figurer som ställs sida vid sida i boken (den andra flyttas upp bredvid den första)
+figurpar:
+- kapitel: 04 Elektrodplacering/01 Elektrodplacering.md
+  figurer:
+  - Elektrodplaceringar RUL BT.svg
+  - Elektrodplacering anatomiska landmarken.svg
+delar:
+- titel: Start och introduktion
+  mapp: 01 Start och introduktion
+  kapitel:
+  - 01 Introduktion.md
+  - 03 Teamets roller.md
+  - 04 Neurobiologiska mekanismer.md
+  - 05 Referenser.md
+- titel: Indikationer och bedömning
+  mapp: 02 Indikationer och bedömning
+  kapitel:
+  - 01 Indikationer och prioritering.md
+  - 02 Kontraindikationer och risker.md
+  - 03 Bedömning inför ECT.md
+  - 04 Läkemedel och interaktioner.md
+  - 05 Samtycke och tvångsvård.md
+  - 06 Graviditet och äldre.md
+  - 07 Referenser.md
+- titel: Apparatur och fysik
+  mapp: 03 Apparatur och fysik
+  kapitel:
+  - 01 Översikt.md
+  - 02 Laddning och energi.md
+  - 03 Parameterinställningar.md
+  - 04 Statisk och dynamisk impedans.md
+  - 05 Larm och felsökning.md
+  - 06 Referenser.md
+- titel: Elektrodplacering
+  mapp: 04 Elektrodplacering
+  kapitel:
+  - 01 Elektrodplacering.md
+  - 02 Referenser.md
+- titel: Dosering
+  mapp: 05 Dosering
+  kapitel:
+  - fil: 01 Doseringsmetoder.md
+    underkapitel:
+    - 02 Lokal dostabell - ålder och kön.md
+    - 03 Åldersbaserad dosering.md
+    - 04 Empirisk titrering.md
+    - 05 Evidens och begränsningar.md
+  - 06 Kramptröskel.md
+  - 07 Dosjustering.md
+  - 08 Referenser.md
+- titel: Anestesi
+  mapp: 06 Anestesi
+  kapitel:
+  - 01 Anestesi och teamsamarbete.md
+  - 02 Ventilation och syresättning.md
+  - 03 Narkosmedel.md
+  - 04 Muskelrelaxantia.md
+  - 05 Referenser.md
+- titel: Behandlingsgenomförande
+  mapp: 07 Behandlingsgenomförande
+  kapitel:
+  - 01 Förberedelser och checklista.md
+  - 02 Behandling steg för steg.md
+  - 03 Anfallsövervakning.md
+  - 04 Bedömning av anfallskvalitet.md
+  - 05 Missat, kort eller förlängt anfall.md
+  - 06 Referenser.md
+- titel: Biverkningar och komplikationer
+  mapp: 08 Biverkningar och komplikationer
+  kapitel:
+  - 01 Kognitiva biverkningar.md
+  - 02 Postiktal delirium.md
+  - 03 Cirkulation och arytmier.md
+  - 04 Andra biverkningar.md
+  - 05 Långsiktig säkerhet.md
+  - 06 Referenser.md
+- titel: Uppföljning och underhållsbehandling
+  mapp: 09 Uppföljning och underhållsbehandling
+  kapitel:
+  - 01 Behandlingsförlopp och serielängd.md
+  - 02 Klinisk utvärdering.md
+  - 03 Underhålls-ECT.md
+  - 04 Kvalitetsregistret för ECT.md
+  - 05 Referenser.md
+- titel: Lathundar, checklistor och blanketter
+  mapp: 10 Lathundar, checklistor och blanketter
+  kapitel:
+  - 01 Parameterinställningar.md
+  - 02 Akuta situationer.md
+  - 03 EEG-tolkning.md
+  - 04 ECT-lista.md
+  - 05 ECT-journal.md
+  - 06 Referenser.md
+- titel: Källor och litteraturöversikt
+  mapp: 11 Källor och litteraturöversikt
+  kapitel:
+  - 01 Källor och referenser.md
+  - 02 Appendix - Thymatron System IV.md

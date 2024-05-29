@@ -1,0 +1,19 @@
+%% Kronologiskt behandlingsförlopp (06 Behandling steg för steg): tre steg per rad med u-svängar
+block-beta
+  columns 11
+  S1["1. Uppkoppling och<br>övervakning (SpO2,<br>blodtryck, EEG;<br>EKG vid ordination)"]:3 space S2["2. Hudförberedelse<br>och kontaktmedel<br>(NaCl-kompress<br>eller gel)"]:3 space S3["3. Preoxygenering<br>(100 % O2, 1-2 min)"]:3
+  space:11
+  S6["6. Fascikulationer<br>upphör →<br>KLARTECKEN"]:3 space S5["5. Muskelrelaxation<br>(suxameton iv),<br>bitblock"]:3 space S4["4. Narkosinduktion<br>(propofol)"]:3
+  space:11
+  S7["7. Applicera<br>elektroder och<br>kontrollera impedans"]:3 space S8["8. STIMULERING:<br>håll knappen<br>intryckt!"]:3 space S9["9. Anfall: övervaka<br>EEG och motorik"]:3
+  space:11
+  space:8 S10["10. Anfallsslut: notera<br>motorisk duration och<br>EEG-tid, blodtryck,<br>uppvakning"]:3
+  S1 --> S2
+  S2 --> S3
+  S3 --> S4
+  S4 --> S5
+  S5 --> S6
+  S6 --> S7
+  S7 --> S8
+  S8 --> S9
+  S9 --> S10

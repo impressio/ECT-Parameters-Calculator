@@ -1,0 +1,21 @@
+[slow, deliberate pace] Det här är en riktig EEG-registrering från en ECT-behandling, med två kanaler och tidsangivelse i sekunder.
+
+[pause]
+
+Efter stimuleringen kommer rekrytering med snabb aktivitet och låg amplitud, B, som övergår i polyspikar där amplituden ökar, C.
+
+[short pause]
+
+Aktiviteten blir sedan mer regelbunden med theta- och deltavågor, D, och kring 25 sekunder ses tydliga spik-vågkomplex på omkring två till tre hertz, E.
+
+[short pause]
+
+Mönstret avtar, F, och efter omkring 50 sekunder följer postiktal suppression med låg amplitud, G.
+
+[pause]
+
+Utslaget vid H är en rörelseartefakt när syrgasmasken läggs tillbaka.
+
+[pause]
+
+Tecken på ett anfall av god kvalitet är hög amplitud, symmetri mellan kanalerna, ett tydligt slut och djup suppression, men inget enskilt tecken avgör effekten.

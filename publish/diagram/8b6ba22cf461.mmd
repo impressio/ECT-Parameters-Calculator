@@ -1,0 +1,10 @@
+%% Fortsättnings- och underhålls-ECT (08 Underhålls-ECT): förloppet på en rad, målen under
+block-beta
+  columns 16
+  A["Akut indexserie<br>(6-12 behandlingar,<br>2-3 gånger<br>per vecka)"]:4 space:2 B["Fortsättnings-ECT<br>(månad 1-6<br>efter indexserien)"]:4 space:2 C["Underhålls-ECT<br>(från månad 6<br>och framåt)"]:4
+  space:16
+  space:6 B1["Förhindra återfall<br>(relapse) i<br>samma episod"]:4 space:2 C1["Förhindra recidiv<br>(recurrence),<br>en ny sjukdoms-<br>episod"]:4
+  A -- "Remission" --> B
+  B -- "Stabilt i mer<br>än 6 månader" --> C
+  B -- "Mål" --> B1
+  C -- "Mål" --> C1

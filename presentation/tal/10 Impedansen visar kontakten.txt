@@ -1,0 +1,25 @@
+[slow, deliberate pace] Statisk impedans mäts före stimuleringen med en svag mätström.
+
+[short pause]
+
+Apparaten spärrar stimuleringen under 100 eller över 5000 ohm.
+
+[short pause]
+
+Det är ett spärrfönster; hos oss är målvärdet omkring 1000 ohm, utifrån klinisk erfarenhet.
+
+[pause]
+
+OVER betyder dålig kontakt: hår, fett, för torr kompress eller för löst tryck.
+
+[short pause]
+
+UNDER betyder en salt- eller gelbrygga mellan elektroderna, så att strömmen går i huden i stället för genom skallen.
+
+[pause]
+
+Dynamisk impedans mäts under pulståget och är lägre, typiskt 150 till 350 ohm.
+
+[short pause]
+
+Ett värde inom fönstret utesluter inte en brygga.

@@ -1,0 +1,25 @@
+[slow, deliberate pace] Pulsbredden är en avvägning mellan effekt och minnesbiverkningar.
+
+[pause]
+
+Kortpuls, 0,5 till 1,0 millisekunder, är standard hos oss och den vanligaste inställningen i Sverige.
+
+[short pause]
+
+Den har bäst underbyggd effekt, och i det svenska kvalitetsregistret var en pulsbredd på minst 0,5 millisekunder förenad med högre remission.
+
+[pause]
+
+Ultrakort puls, noll komma tjugofem till noll komma tre millisekunder, ger mindre minnesbiverkningar vid högersidig unilateral behandling: färre subjektiva minnesbesvär i registret och mindre retrograd amnesi i studier.
+
+[short pause]
+
+Priset är något sämre effekt och i genomsnitt ungefär en behandling till.
+
+[short pause]
+
+Ultrakort puls används inte hos oss.
+
+[pause]
+
+Samma laddning i millicoulomb är inte likvärdig vid olika pulsbredd, så ett byte av pulsbredd kräver en ny bedömning av dosen i förhållande till tröskeln.

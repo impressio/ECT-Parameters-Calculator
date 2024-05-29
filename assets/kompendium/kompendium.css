@@ -1,0 +1,223 @@
+.brand { color: var(--ink); text-decoration: none; }
+/* Top bar as on the calculator page: logo and name, and the link back as the same light button as the
+   calculator's link to the compendium (background on hover instead of the bold text of other links) */
+.topbar .brand:hover { color: var(--ink); font-weight: 600; }
+.topbar .compendium-link { margin-right: 0; }
+.topbar .compendium-link:hover { color: #086eae; font-weight: 500; }
+.topbar nav { display:flex; align-items:center; gap:16px; }
+/* Länkar stryks aldrig under; vid hover blir de halvfeta (utom menyer, som markeras med bakgrund). */
+a { color:#086eae; text-decoration:none; }
+a:hover { color:#004c80; font-weight:600; }
+a:focus-visible, button:focus-visible, input:focus-visible, summary:focus-visible { outline:2px solid var(--accent); outline-offset:3px; }
+.skip-link { position:fixed; left:12px; top:-80px; z-index:30; padding:12px; background:white; }
+.skip-link:focus { top:4px; }
+/* Tre spalter som på Positrons dokumentation: kapitelmeny till vänster, kapitlet i mitten och kapitlets
+   rubriker ("På den här sidan") till höger. Sidan är vit; spalterna skiljs av luft och en tunn linje. */
+body { background:white; }
+.reading-layout { display:grid; grid-template-columns:272px minmax(0,840px) 220px; justify-content:center; max-width:1440px; margin:auto; gap:44px; padding:0 24px; }
+#chapter-nav { position:sticky; top:48px; align-self:start; height:calc(100dvh - 48px); overflow-y:auto; overscroll-behavior:contain; padding:24px 16px 24px 0; border-right:1px solid var(--line); }
+#chapter-nav label { display:block; font-weight:600; margin-bottom:8px; }
+#chapter-search { width:100%; padding:10px; border:1px solid var(--line); border-radius:6px; font:inherit; background:white; }
+#search-status { font-size:var(--fs-small); color:var(--muted); margin:6px 0 14px; }
+/* Rubrik före träffar där sökordet bara finns inuti andra ord */
+#search-results .search-group { list-style:none; margin:14px 0 4px; font-size:var(--fs-small); font-weight:600; color:var(--muted); }
+#chapter-nav details { margin:0 0 10px; }
+/* Grupprubrik med pil till höger som vänds när gruppen fälls ihop */
+#chapter-nav summary { display:flex; justify-content:space-between; align-items:center; gap:8px; list-style:none; cursor:pointer; padding:6px 4px 6px 0; font-weight:500; }
+#chapter-nav summary::-webkit-details-marker { display:none; }
+#chapter-nav summary::after { content:""; flex:none; width:7px; height:7px; border-right:1.5px solid var(--muted); border-bottom:1.5px solid var(--muted); transform:rotate(45deg) translate(-2px,-2px); }
+#chapter-nav details:not([open]) > summary::after { transform:rotate(-45deg); }
+#chapter-nav ul { list-style:none; margin:2px 0 4px; padding:0; }
+#chapter-nav li a { display:block; padding:4px 10px; border-radius:5px; line-height:1.4; text-decoration:none; color:var(--ink); font-size:var(--fs-small); }
+#chapter-nav li a:hover { font-weight:inherit; }
+#chapter-nav li a[aria-current=page] { color:#075d95; background:#e4f2fc; font-weight:600; }
+#chapter-nav li a:hover { background:#ebebeb; }
+.reading-content { min-width:0; padding-top:28px; }
+/* Brödsmula över rubriken: grupp › kapitel */
+.chapter-kicker { color:var(--muted); margin:0 0 10px; font-size:var(--fs-small); }
+/* break-word: only strings that cannot fit (long DOIs and URLs) are broken, without hyphens */
+article { background:white; padding:0; font-size:var(--fs-body); line-height:1.6; overflow-wrap:break-word; word-break:normal; hyphens:none; }
+article h1 { font-size:var(--fs-display); line-height:1.25; margin:0 0 24px; }
+article h2 { font-size:var(--fs-h2); line-height:1.3; margin:34px 0 14px; }
+article h3 { font-size:var(--fs-h3); line-height:1.4; margin:24px 0 10px; }
+article h4 { font-size:var(--fs-body); line-height:1.5; margin:20px 0 10px; }
+article p { margin:0 0 16px; }
+article li { margin:5px 0; }
+/* Samma indrag i alla listor och på alla nivåer: text på första nivån 1,5 em in (som checklistornas text),
+   underlistor 1 em (numrerade 1,5 em, så att siffrorna får plats) under föregående nivås text. */
+article ul, article ol { padding-left:1.5em; }
+article li ul { padding-left:1em; }
+article li ol { padding-left:1.5em; }
+article blockquote { margin:20px 0; border-left:3px solid #b4d7ef; background:#f3f8fc; padding:14px 18px; color:var(--ink); }
+article blockquote p:last-child { margin-bottom:0; }
+article hr { border:0; border-top:1px solid var(--line); margin:28px 0; }
+.table-scroll { overflow-x:auto; margin:20px 0; }
+article table { font-family:inherit; font-size:1em; line-height:1.5; min-width:100%; border-collapse:collapse; }
+article th, article td { padding:10px 12px; border:1px solid var(--line); text-align:left; }
+article th { background:#f6f6f6; }
+article pre { overflow:auto; font-size:var(--fs-body); padding:14px; background:#f8f8f8; }
+article code { font-size:inherit; }
+.diagram-source { overflow-x:auto; margin:20px 0; }
+.diagram-source summary { cursor:pointer; color:var(--muted); font-size:var(--fs-small); }
+.diagram-source pre.mermaid { background:transparent; padding:16px 0; }
+.diagram-source svg { display:block; margin-inline:auto; max-width:none; height:auto; }
+.diagram-source svg, .diagram-source svg * { overflow-wrap:normal; word-break:normal; hyphens:none; }
+mjx-container[display=true] { overflow-x:auto; overflow-y:hidden; max-width:100%; padding:8px 0; }
+.page-navigation { display:flex; justify-content:space-between; gap:24px; margin:24px 0; }
+/* Sidfoten (delad med kalkylatorn) får luft ovanför när kompendiet visas */
+#compendium-view:not([hidden]) ~ .footer { padding-top:2.5rem; }
+.page-navigation a { max-width:46%; text-decoration:none; line-height:1.5; }
+.page-navigation small { display:block; color:var(--muted); font-size:var(--fs-small); font-weight:400; margin-bottom:5px; }
+/* På den här sidan */
+#page-toc { position:sticky; top:48px; align-self:start; max-height:calc(100dvh - 48px); overflow-y:auto; padding:28px 0 24px; font-size:var(--fs-small); }
+#page-toc-title { margin:0 0 8px; font-weight:600; }
+#page-toc ul { list-style:none; margin:0; padding:0; border-left:1px solid var(--line); }
+#page-toc li a { display:block; margin-left:-1px; padding:3px 0 3px 12px; border-left:2px solid transparent; color:var(--muted); line-height:1.4; }
+#page-toc li.toc-sub a { padding-left:24px; }
+#page-toc li a:hover { color:var(--ink); font-weight:inherit; }
+#page-toc li a[aria-current] { color:#075d95; border-left-color:#075d95; font-weight:600; }
+@media(max-width:1240px) {
+ .reading-layout { grid-template-columns:272px minmax(0,840px); }
+ #page-toc { display:none; }
+}
+#chapter-toggle { display:none; font:inherit; font-size:var(--fs-small); font-weight:500; border:1px solid var(--line); background:white; border-radius:5px; padding:6px 10px; }
+@media(max-width:850px) {
+ .reading-layout { display:block; padding:18px 16px; }
+ #chapter-toggle { display:block; }
+ #chapter-nav { display:none; position:static; height:auto; max-height:70vh; margin-bottom:22px; padding:16px; background:white; border:1px solid var(--line); border-radius:8px; }
+ .reading-content { padding-top:0; }
+ /* Öppen kapitellista: ligger fast under topplisten, så att den syns även när man har scrollat ned. */
+ #chapter-nav.is-open { display:block; position:fixed; top:56px; left:12px; right:12px; z-index:25; max-height:calc(100dvh - 72px); margin:0; overflow-y:auto; overscroll-behavior:contain; box-shadow:0 12px 40px #0003; }
+ .topbar { padding:0 12px; }
+ .topbar nav { gap:10px; }
+ /* Smala skärmar: namn, länk och knapp på en rad i topplisten. */
+ .topbar .brand span, .topbar .compendium-link { white-space:nowrap; }
+}
+@media(max-width:420px) {
+ .topbar .brand { font-size:var(--fs-body); gap:.4rem; }
+ .topbar nav { gap:6px; }
+ .topbar .compendium-link { padding:4px 6px; }
+ /* Allra smalast: namnet kortas med … så att länken och knappen alltid syns hela. */
+ .topbar .brand { min-width:0; }
+ .topbar .brand span { overflow:hidden; text-overflow:ellipsis; }
+ .topbar nav { flex-shrink:0; }
+}
+@media print { .topbar, #chapter-nav, #page-toc, .skip-link, .page-navigation { display:none; } .reading-layout { display:block; padding:0; } article { border:0; padding:0; } }
+
+/* Checklistor visar endast kryssrutor, utan punkter eller nummer. */
+/* Hängande indrag: rader efter radbyte börjar i linje med texten på första raden, inte under kryssrutan. */
+article li.task-list-item { list-style: none; padding-left: 1.5em; text-indent: -1.5em; }
+article li.task-list-item > input[type="checkbox"], article li.task-list-item > p > input[type="checkbox"] { width: 1em; height: 1em; margin: 0 .5em 0 0; vertical-align: -0.12em; }
+/* Checklistan börjar i linje med brödtexten (kryssrutan i vänsterkanten); underlistor ärver annars det negativa indraget. */
+article ul.task-list { padding-left: 0; }
+article li.task-list-item ul, article li.task-list-item ol { text-indent: 0; }
+article .figure-link { display: block; margin: 24px 0 12px; }
+article .figure-link img { display: block; width: 100%; height: auto; background: white; border-radius: 4px; }
+
+
+#compendium-view article [id] { scroll-margin-top:72px; }
+#compendium-view article:focus { outline:none; }
+
+/* Förstoringsvy för figurer, diagram och tabeller som behöver mer utrymme. */
+.content-dialog-open { overflow:hidden; }
+.content-dialog { box-sizing:border-box; width:calc(100vw - 32px); max-width:none; max-height:calc(100dvh - 32px); padding:0; border:1px solid var(--line); border-radius:8px; background:white; color:var(--ink); box-shadow:0 12px 70px #0004; }
+.content-dialog::backdrop { background:#0009; }
+.content-dialog-toolbar { display:flex; align-items:center; justify-content:space-between; gap:20px; padding:14px 20px; border-bottom:1px solid var(--line); }
+.content-dialog-toolbar h2 { font-size:var(--fs-h3); line-height:1.4; margin:0; overflow-wrap:normal; word-break:normal; hyphens:none; }
+.content-dialog-toolbar button, .expand-content { font:inherit; font-size:var(--fs-small); font-weight:500; cursor:pointer; border:1px solid var(--line); border-radius:5px; background:white; color:#075d95; padding:7px 12px; }
+.content-dialog-toolbar button { flex-shrink:0; }
+.content-dialog-body { max-height:calc(100dvh - 120px); overflow:auto; overscroll-behavior:contain; }
+article.expanded-content { border:0; border-radius:0; margin:0; padding:24px; min-width:0; }
+.expanded-content img { display:block; width:100%; max-width:none !important; height:auto; margin-inline:auto; background:white; }
+.expanded-content table { width:100%; }
+.expanded-content svg, .expanded-content svg * { overflow-wrap:normal; word-break:normal; hyphens:none; }
+.expand-content[hidden] { display:none; }
+.expand-content { display:block; margin:8px 0 12px; }
+article .figure-link, .diagram-source svg, .table-scroll table { cursor:zoom-in; }
+@media(max-width:600px) {
+ .content-dialog { width:calc(100vw - 12px); max-height:calc(100dvh - 12px); }
+ .content-dialog-toolbar { padding:10px 12px; gap:12px; }
+ .content-dialog-body { max-height:calc(100dvh - 100px); }
+ article.expanded-content { padding:12px; }
+}
+@media print { .content-dialog, .expand-content { display:none !important; } }
+
+.expanded-content svg { display:block; max-width:none !important; height:auto; margin-inline:auto; background:white; }
+
+/* Samma texttypografi i tabeller och renderade diagram som i kapitlet. */
+article table code { font-family:inherit; font-size:1em; }
+.diagram-source pre.mermaid { font-family:inherit; font-size:inherit; }
+
+/* Blanketter: datumfält och nedladdningsknapp (blankett.js) */
+.blankett-form { display:flex; flex-wrap:wrap; align-items:center; gap:10px 12px; width:fit-content; max-width:100%; box-sizing:border-box; margin:16px 0; padding:10px 12px; border:1px solid var(--line); border-radius:8px; background:#f8fbfe; }
+.blankett-form label { font-weight:600; }
+.blankett-form button { font:inherit; font-size:var(--fs-small); font-weight:600; cursor:pointer; border:0; border-radius:5px; background:#075d95; color:white; padding:9px 14px; }
+.blankett-form button:disabled { opacity:.6; cursor:progress; }
+.blankett-status { flex-basis:100%; margin:0; color:var(--muted); font-size:var(--fs-small); }
+.blankett-status:empty { display:none; }
+
+/* ECT-journalens webbformulär (journal.js) */
+.journal-form fieldset { margin:0 0 18px; padding:14px 18px 16px; border:1px solid var(--line); border-radius:8px; }
+.journal-form legend { padding:0 6px; font-weight:600; }
+.journal-question { margin:10px 0 4px; font-weight:500; }
+.journal-options { display:grid; gap:4px; margin-bottom:6px; }
+.journal-options label { display:flex; gap:8px; align-items:baseline; line-height:1.4; }
+.journal-field { display:grid; gap:4px; margin:10px 0; }
+.journal-field > label { font-weight:500; }
+.journal-field input, .journal-field textarea { font:inherit; padding:7px 10px; border:1px solid var(--line); border-radius:5px; background:white; width:100%; box-sizing:border-box; }
+.journal-field input.journal-short { max-width:10em; }
+.journal-row { display:grid; grid-template-columns:repeat(auto-fit, minmax(5.5em, 1fr)); gap:0 10px; }
+.journal-row .journal-field input { max-width:none; text-align:center; }
+.journal-field input.journal-pnr { max-width:12em; font-variant-numeric:tabular-nums; }
+.journal-field input[aria-invalid=true] { border-color:#c93413; }
+/* Svensk datumväljare (datum.js) */
+.datum { position:relative; display:inline-flex; align-items:stretch; gap:6px; max-width:100%; }
+.datum .datum-input { font:inherit; font-variant-numeric:tabular-nums; width:9.5em; padding:7px 10px; border:1px solid var(--line); border-radius:5px; background:white; }
+.datum .datum-open { display:inline-flex; font:inherit; padding:0; align-items:center; justify-content:center; width:40px; border:1px solid var(--line); border-radius:5px; background:white; color:#075d95; cursor:pointer; }
+.datum .datum-open:hover, .datum-panel button:hover { background:#e4f2fc; }
+.datum-panel { position:absolute; top:calc(100% + 6px); left:0; z-index:20; width:max-content; padding:12px; background:white; border:1px solid var(--line); border-radius:8px; box-shadow:0 10px 30px #0002; font-size:var(--fs-body); }
+.datum-head { display:flex; align-items:center; justify-content:space-between; gap:8px; margin-bottom:6px; }
+.datum-month { margin:0; font-weight:600; text-transform:capitalize; }
+article .datum-head button { font:inherit; padding:0; font-size:1.4em; line-height:1; width:40px; height:40px; border:0; border-radius:5px; background:none; color:#075d95; cursor:pointer; }
+/* Kalendern är en tabell: kompendiets tabellstilar (ramar, cellmarginaler, full bredd) gäller inte här */
+article table.datum-grid { border-collapse:collapse; min-width:0; width:auto; line-height:1.2; margin:0; }
+article .datum-grid th { border:0; background:none; font-size:var(--fs-small); font-weight:600; color:var(--muted); text-transform:capitalize; padding:4px 0; width:44px; text-align:center; }
+article .datum-grid td { border:0; padding:2px; text-align:center; }
+article .datum-grid button { font:inherit; font-size:var(--fs-body); padding:0; width:40px; height:40px; border:0; border-radius:50%; background:none; color:var(--ink); cursor:pointer; font-variant-numeric:tabular-nums; }
+article .datum-grid button.datum-other { color:#9a9a9a; }
+article .datum-grid button[aria-current=date] { font-weight:700; color:#075d95; box-shadow:inset 0 0 0 1.5px #075d95; }
+article .datum-grid button[aria-pressed=true] { background:#075d95; color:white; }
+.datum-foot { display:flex; gap:8px; justify-content:flex-end; margin-top:8px; }
+article .datum-foot button { font:inherit; font-size:var(--fs-small); font-weight:600; padding:7px 12px; border:1px solid var(--line); border-radius:5px; background:white; color:#075d95; cursor:pointer; }
+.journal-error { color:#c93413; font-size:var(--fs-small); font-weight:400; }
+.journal-error:empty { display:none; }
+.journal-field textarea { resize:vertical; }
+/* Upplysning om att uppgifterna stannar i webbläsaren, vid knappen */
+.journal-privacy { flex-basis:100%; margin:0; padding:10px 12px; border-left:3px solid #075d95; background:#f3f8fc; font-size:var(--fs-small); }
+.journal-actions { display:flex; flex-wrap:wrap; gap:10px 14px; align-items:center; margin:8px 0 20px; }
+.journal-actions button { font:inherit; font-size:var(--fs-small); font-weight:600; cursor:pointer; border:0; border-radius:5px; background:#075d95; color:white; padding:9px 14px; }
+.journal-actions button.journal-reset { background:white; color:#075d95; border:1px solid var(--line); }
+.journal-actions button:disabled { opacity:.6; cursor:progress; }
+
+/* Knappar i kapitelvyn (t.ex. "Försök igen") följer knappstorleken. */
+article button { font-size:var(--fs-small); font-weight:500; }
+
+/* Bokstavslistor med hängande indrag vid radbrytning. */
+article .letter-list > ol { list-style-type: upper-alpha; list-style-position: outside; padding-left: 2em; }
+article .letter-list > ol > li { padding-left: 0.35em; }
+
+/* Enhetligt radavstånd i kompendiets referenslistor. */
+article h2#referenser ~ ol,
+article:has(> h1#kallor-och-referenser) ol {
+  line-height: 1.6;
+  margin: 0 0 16px;
+}
+article h2#referenser ~ ol > li,
+article:has(> h1#kallor-och-referenser) ol > li {
+  line-height: inherit;
+  margin: 0 0 0.5em;
+}
+article h2#referenser ~ ol > li > p,
+article:has(> h1#kallor-och-referenser) ol > li > p {
+  margin: 0;
+}

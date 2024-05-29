@@ -1,0 +1,59 @@
+# Kontrollerar en gång i månaden om det finns en ny version av pdf-lib, som ECT-journalens formulär använder för att
+# skapa PDF:en i webbläsaren (assets/kompendium/vendor/). Finns en ny version hämtas den med npm run vendor:pdf-lib,
+# kompendiets tester körs och ändringen läggs på en egen gren med en pull request för granskning.
+# Master ändras aldrig automatiskt: koden körs på sidan där patientuppgifter fylls i och ska granskas först.
+name: Kontrollera pdf-lib
+
+on:
+  schedule:
+    - cron: '0 6 1 * *'   # den 1:a varje månad kl. 06 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  kontrollera:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Jämför version
+        id: version
+        run: |
+          current=$(node -p "require('./package.json').devDependencies['pdf-lib']")
+          latest=$(npm view pdf-lib dist-tags.latest)
+          echo "current=$current" >> "$GITHUB_OUTPUT"
+          echo "latest=$latest" >> "$GITHUB_OUTPUT"
+          echo "pdf-lib i repot: $current, senaste på npm: $latest"
+      - name: Hämta ny version och skapa pull request
+        if: steps.version.outputs.current != steps.version.outputs.latest
+        env:
+          GH_TOKEN: ${{ github.token }}
+          CURRENT: ${{ steps.version.outputs.current }}
+          LATEST: ${{ steps.version.outputs.latest }}
+        run: |
+          branch="pdf-lib-$LATEST"
+          if git ls-remote --exit-code --heads origin "$branch" > /dev/null; then
+            echo "Grenen $branch finns redan; pull requesten väntar på granskning."
+            exit 0
+          fi
+          npm run -s vendor:pdf-lib -- "$LATEST"
+          npm run -s test:kompendium
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git switch -c "$branch"
+          git add package.json assets/kompendium/vendor
+          git commit -m "Uppdatera pdf-lib från $CURRENT till $LATEST"
+          git push origin "$branch"
+          gh pr create --base master --head "$branch" --title "pdf-lib $LATEST" --body "Ny version av pdf-lib ($CURRENT → $LATEST), som ECT-journalens formulär använder för att skapa PDF:en i webbläsaren.
+
+          Granska innan sammanslagning:
+          - Ändringar: https://github.com/Hopding/pdf-lib/compare/v$CURRENT...v$LATEST
+          - Kontrollsumma och licens: assets/kompendium/vendor/pdf-lib.LICENSE.txt
+          - Skapa en journal lokalt (python3 -m http.server) och kontrollera kryss, text och att inga nätverksanrop görs efter ifyllning.
+
+          Kompendiets tester har körts."

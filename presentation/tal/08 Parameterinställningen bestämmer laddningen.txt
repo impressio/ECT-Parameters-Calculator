@@ -1,0 +1,21 @@
+[slow, deliberate pace] Parameterinställningen omfattar fyra parametrar.
+
+[short pause]
+
+Pulsbredden anger hur länge varje puls varar, frekvensen hur många pulspar per sekund, durationen hur länge pulståget pågår och strömstyrkan pulsernas amplitud, 500 till 900 milliampere enligt ordination.
+
+[pause]
+
+Pulserna är bifasiska: varje period har en positiv och en negativ puls, därav faktorn två.
+
+[pause]
+
+Laddningen i millicoulomb är det mått vi ordinerar och dokumenterar.
+
+[short pause]
+
+Exempel: 1,0 millisekunder, 60 hertz, 2,0 sekunder och 800 milliampere ger 192 millicoulomb.
+
+[short pause]
+
+Kontrollera alltid att apparatens skärm visar den ordinerade laddningen.

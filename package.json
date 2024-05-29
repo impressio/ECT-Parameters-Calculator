@@ -1,0 +1,19 @@
+{
+  "name": "ect-parameters-calculator",
+  "private": true,
+  "scripts": {
+    "build:index": "node tools/build-index.mjs",
+    "build:kompendium": "node tools/build-renderer.mjs",
+    "test:kompendium": "node tools/test-renderer.mjs",
+    "vendor:pdf-lib": "node tools/vendor-pdf-lib.mjs",
+    "export:pdf": "node tools/export-pdf.mjs",
+    "bok": "python3 publish/build.py",
+    "word": "python3 publish/word.py"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "pdf-lib": "1.17.1"
+  }
+}

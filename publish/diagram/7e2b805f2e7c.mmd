@@ -1,0 +1,13 @@
+%% Behandlingsförlopp och serielängd (09 Uppföljning): samma flöde och text som i kompendiet, som en kolumn med
+%% lika breda rutor, så att avsnittet ryms på samma sida som "När avslutas serien?"
+block-beta
+    columns 1
+    B1["Behandling 1-3: Titrering och tidig symtomlindring"]
+    B4["Behandling 4-6: Tydlig vändning (motorik, mimik, matlust)"]
+    B7["Behandling 7-9: Stämningsläget normaliseras, suicidtankarna avtar"]
+    Plat["Behandling 10-12: Full remission och platåfas (MADRS ≤ 10)"]
+    Avsluta["Avsluta indexserien → övergång till återfallsprevention eller underhålls-ECT"]
+    B1 --> B4
+    B4 --> B7
+    B7 --> Plat
+    Plat --> Avsluta

@@ -1,0 +1,11 @@
+%% EEG:s faser (06 Anfallsövervakning, 09 EEG-tolkning): två rader med u-sväng
+block-beta
+  columns 11
+  S["Stimulus"]:3 space F1["Fas 1: Rekrytering<br>(snabb aktivitet,<br>låg amplitud)"]:3 space F2["Fas 2: Polyspikar<br>(hög amplitud)"]:3
+  space:11
+  F5["Fas 5: Postiktal<br>dämpning<br>(varierande grad)"]:3 space F4["Fas 4: Anfallsslut<br>(kan vara svårt<br>att avgränsa)"]:3 space F3["Fas 3: Rytmisk<br>spik-våg (frekvensen<br>avtar ofta)"]:3
+  S --> F1
+  F1 --> F2
+  F2 --> F3
+  F3 --> F4
+  F4 --> F5

@@ -1,0 +1,22 @@
+---
+config:
+  flowchart:
+    wrappingWidth: 320
+---
+%% MECTA 5000Q och Thymatron System IV (10 Appendix): apparaterna sida vid sida
+flowchart LR
+    subgraph mecta ["MECTA spECTrum 5000Q<br>(kompendiets standardapparat)"]
+        direction TB
+        M1["4 separata parameterinställningar:<br>Pulsbredd, frekvens, duration,<br>strömstyrka (500-900 mA)"]
+        M2["Behandlaren ställer in<br>varje parameter direkt"]
+        M3["Visar laddning direkt i<br>millicoulomb (mC) på skärmen"]
+        M1 ~~~ M2 ~~~ M3
+    end
+    subgraph thymatron ["Somatics Thymatron System IV<br>(referens i appendix)"]
+        direction TB
+        T1["1 huvudratt:<br>Procent energi (% Energy,<br>1-100 % vid 900 mA)"]
+        T2["Mikroprocessorn väljer automatiskt<br>frekvens och duration enligt<br>valt program (Addendum VII)"]
+        T3["100 % Energy = 504 mC<br>(1 % ≈ 5,04 mC; motsvarar<br>cirka 1,0 J vid 220 Ω)"]
+        T1 ~~~ T2 ~~~ T3
+    end
+    mecta ~~~ thymatron
