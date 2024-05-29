@@ -1,0 +1,46 @@
+Copyright (c) 2026 impressio (https://github.com/impressio)
+All rights reserved.
+
+1. What this notice covers
+
+This notice covers the original work in this repository and any website built
+from it (ect.matty.se): the source code, the calculator and simulations, the
+explanatory texts and their translations, the ECT compendium in kompendium/,
+and the figures and design. Individual facts and values reported in the
+literature, in guidelines or in device manuals are not claimed; third-party
+material is listed in section 4.
+
+2. What you may do
+
+- View the website and the source code.
+- Clone or download the repository for private study, teaching and evaluation
+  (for example by reviewers or editors).
+- Link to the website or the repository and cite the work.
+- Fork the repository on GitHub, as permitted by GitHub's Terms of Service.
+
+3. What requires prior written permission
+
+You may not copy, modify, distribute, publish, host, sublicense or sell this
+work or any part of it, or create derivative works from it, beyond what
+section 2 allows, without prior written permission from the copyright holder.
+
+4. Third-party material (excluded; remains under its own terms)
+
+- Device names and the image of the MECTA spECTrum 5000Q (assets/images/5000Q.png
+  and kompendium/Figurer/) are the property of their respective owners;
+  MECTA, spECTrum and Thymatron are trademarks of their owners.
+- Figures in kompendium/Figurer/ taken or adapted from published sources are
+  credited where they are used (for example the EEG figure from The ECT
+  Handbook, Royal College of Psychiatrists).
+- Facts and short quotations from the literature, guidelines and device
+  manuals, each cited in the compendium. Figures redrawn after published
+  textbook figures (Purves et al., Neuroscience) are cited where they are used.
+- The Rust crates compiled into assets/kompendium/ect_markdown.wasm, under the
+  licenses listed in assets/kompendium/THIRD_PARTY_LICENSES.txt.
+- JavaScript libraries loaded from CDNs (Chart.js, chartjs-plugin-annotation,
+  MathJax, Mermaid) and the Inter font, under their own licenses.
+
+5. No warranty
+
+THE WORK IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND. IT IS FOR
+EDUCATION ONLY AND IS NOT INTENDED TO GUIDE CLINICAL DECISIONS.

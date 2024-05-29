@@ -1,0 +1,40 @@
+# Compiled source
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Packages
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Node packages (not used, but kept out if installed)
+node_modules/
+
+# Rust build output
+/tools/markdown-renderer/target/
+
+# Local reference material for the compendium (books, manuals); never published
+Referenser/
